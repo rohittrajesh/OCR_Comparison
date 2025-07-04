@@ -1,0 +1,5 @@
+data/article1.pdf
+data/frenchinvoice1.pdf
+data/frenchinvoice2.pdf
+data/koreaninvoice1.pdf
+data/koreaninvoice2.pdf

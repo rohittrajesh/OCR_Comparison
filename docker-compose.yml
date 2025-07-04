@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  bench:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - HF_TOKEN=${HF_TOKEN}
+      - AZURE_OCR_KEY=${AZURE_OCR_KEY}

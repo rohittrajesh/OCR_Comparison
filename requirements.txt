@@ -1,0 +1,7 @@
+PyYAML
+requests
+tqdm
+Pillow
+pdf2image
+boto3         # for Amazon Textract
+openai        # for o4
